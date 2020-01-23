@@ -1,22 +1,5 @@
 [
   {
-    "name": "Telenet DASH",
-    "samples": [
-      {
-        "name": "Live stream with Titanium WV",
-        "uri": "https://stream3m1-linear.cdn1.yelo.prd.telenet-ops.be/dash/eenhd_hd1080/manifest.mpd?tkn=cGF0aFVSST0qc3RyZWFtM20xLWxpbmVhci5jZG4xLnllbG8ucHJkLnRlbGVuZXQtb3BzLmJlJTJGZGFzaCUyRmVlbmhkX2hkMTA4MCUyRm1hbmlmZXN0Lm1wZCZleHBpcnk9MTU3OTc4OTM4OSZjLWlwLXVubG9ja2VkPTEsZjQyYjVmMjlkYTE1ZTUwZmRkZTRjNWIzNzBjMDgyNDNmZmU0NzY2OGVlMzFmZjczOTM4MmI2MWJjN2Q3NzRlMw%3D%3D",
-        "format": "dash",
-        "drm_scheme": "widevine",
-        "drm_license_url": "https://lwvdrm.yelo.prd.telenet-ops.be/WvLicenseProxy",
-        "drm_license_type": "titanium",
-        "drm_custom": {
-          "portalId": "24694390-44cb-442b-be2b-5fba86d27f8c",
-          "customerName": "ys1554377663574@TADAAM"
-        }
-      }
-    ]
-  },
-  {
     "name": "YouTube DASH",
     "samples": [
       {
@@ -595,6 +578,23 @@
         "name": "Iceland (360 top-bottom stereo ts)",
         "uri": "https://storage.googleapis.com/exoplayer-test-media-1/360/iceland0.ts",
         "spherical_stereo_mode": "top_bottom"
+      }
+    ]
+  },
+  {
+    "name": "Telenet DASH",
+    "samples": [
+      {
+        "name": "Live stream with Titanium WV",
+        "uri": "",
+        "format": "dash",
+        "drm_scheme": "widevine",
+        "drm_license_url": "",
+        "drm_license_type": "titanium",
+        "drm_custom": {
+          "portalId": "",
+          "customerName": ""
+        }
       }
     ]
   }
